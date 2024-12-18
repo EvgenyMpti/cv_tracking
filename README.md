@@ -3,7 +3,7 @@
 ![image](result/frame.png)
 
 - Подробное описание проекта можно найти в [ноутбуке разработки](https://colab.research.google.com/drive/1C6qhr3qGnRfvE8HPyjo9KgK0RXPHhGjX?usp=sharing)
-- Пример работы программы доступен в [YouTube](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
+[![Пример работы программы]/result/output.gif)](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
 - Оригинальное видео /result/output.mp4
 
 # Требования:

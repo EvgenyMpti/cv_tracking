@@ -1,6 +1,5 @@
 # Проектная работа МФТИ - cv_tracking
 Анализ видео с камер наблюдения в клинике с дальнейшей интеграцией с учетной системой и сбора статистики
-![image](result/frame.png)
 
 - Подробное описание проекта можно найти в [ноутбуке разработки](https://colab.research.google.com/drive/1C6qhr3qGnRfvE8HPyjo9KgK0RXPHhGjX?usp=sharing)
 - Оригинальное видео работы программы /result/output.mp4

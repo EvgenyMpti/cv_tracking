@@ -2,9 +2,10 @@
 Анализ видео с камер наблюдения в клинике с дальнейшей интеграцией с учетной системой и сбора статистики
 
 - Подробное описание проекта можно найти в [ноутбуке разработки](https://colab.research.google.com/drive/1C6qhr3qGnRfvE8HPyjo9KgK0RXPHhGjX?usp=sharing)
-- Оригинальное видео работы программы /result/output.mp4
+- [Оригинальное видео работы программы](https://github.com/EvgenyMpti/cv_tracking/raw/refs/heads/main/result/output.mp4) 
 
 [![Пример работы программы](/result/output.gif)](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
+[YouTube](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
 
 
 # Требования:

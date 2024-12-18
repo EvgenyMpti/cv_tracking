@@ -12,12 +12,18 @@
 - С++ >=14
 - OpenCV >= 3.0
 - ONNXRUNTIME
+- Cuda опционально
 
-Тестирование проводилось под Microsoft Visual Studio Community 2022 (64-bit), 
+Тестирование проводилось под Microsoft Visual Studio Community 2022 (64-bit) + ONNXRUNTIME as Nuget, 
 на других платформах также должно работать, т.к. все компонетны являются кросс платформенными
 
 # Для сборки можно воспользоваться CMake
-- cmake -B build -D OpenCV_INCLUDE_DIRS=/.../ ONNXRUNTIME_ROOT=/.../ .
+Установить окружение в CMaLists.txt (проверить пути к библиотекам)
+- set (CMAKE_PREFIX_PATH "D:/code/opencv/build/install")
+- set(ONNXRUNTIME_VERSION 1.20.1)
+- set(ONNXRUNTIME_ROOT "D:/code/camsec/build/packages/Microsoft.ML.OnnxRuntime.${ONNXRUNTIME_VERSION}/")
+
+- cmake -B build .
 - cmake --build build
 
 # Настройка
@@ -25,3 +31,7 @@
 - Разместить папку с фотографиями сотрудников для предварительного составления вектора особенностей лица
 - необходимо настроить источник видео, прописать формат клиники, ее кабинетов и указать точки соответствия углов изображений с камеры, реальному положению кабинета
 
+# Ссылки
+* [YOLOv11 by Ultralytics](https://github.com/ultralytics/ultralytics)
+* [ONNX](https://onnx.ai)
+* [OpenCV](https://opencv.org)

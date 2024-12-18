@@ -14,7 +14,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 # -------------- OpenCV  ------------------#
 set(USE_CUDA OFF)
 
-#set (CMAKE_PREFIX_PATH "D:/code/opencv/build/install")
+set (CMAKE_PREFIX_PATH "D:/code/opencv/build/install")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
@@ -33,7 +33,7 @@ endif ()
 
 # Set ONNXRUNTIME_VERSION
 set(ONNXRUNTIME_VERSION 1.20.1)
-#set(ONNXRUNTIME_ROOT "Z:/work/dentimus/cpp/camsec/camsec/build/packages/Microsoft.ML.OnnxRuntime.${ONNXRUNTIME_VERSION}/")
+set(ONNXRUNTIME_ROOT "D:/code/camsec/build/packages/Microsoft.ML.OnnxRuntime.${ONNXRUNTIME_VERSION}/")
 
 include_directories(${PROJECT_NAME} ${ONNXRUNTIME_ROOT}/build/native/include)
 

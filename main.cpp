@@ -13,10 +13,10 @@ void processCamera(CamSec::Clinic& clinic, const CamSec::Camera* camera) {
         return;
     }
 
-    std::string filename = "output1.mp4"; // Имя выходного видеофайла
-    int fps = 15;                         // Кадры в секунду (FPS)
-    cv::Size frameSize(900, 700);        // Размер кадра (ширина, высота)
-    bool isColor = true;                // Цветное видео (true) или черно-белое (false)
+    std::string filename = "output1.mp4"; // РРјСЏ РІС‹С…РѕРґРЅРѕРіРѕ РІРёРґРµРѕС„Р°Р№Р»Р°
+    int fps = 15;                         // РљР°РґСЂС‹ РІ СЃРµРєСѓРЅРґСѓ (FPS)
+    cv::Size frameSize(900, 700);        // Р Р°Р·РјРµСЂ РєР°РґСЂР° (С€РёСЂРёРЅР°, РІС‹СЃРѕС‚Р°)
+    bool isColor = true;                // Р¦РІРµС‚РЅРѕРµ РІРёРґРµРѕ (true) РёР»Рё С‡РµСЂРЅРѕ-Р±РµР»РѕРµ (false)
 
     cv::VideoWriter video(filename, cv::VideoWriter::fourcc('M', 'P', '4', 'V'), fps, frameSize, isColor);
 
@@ -35,7 +35,7 @@ void processCamera(CamSec::Clinic& clinic, const CamSec::Camera* camera) {
             break;
         }
 
-        // Обрабатываем каждый 5-й кадр
+        // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј РєР°Р¶РґС‹Р№ 5-Р№ РєР°РґСЂ
         //if (frame_count % 5 == 0) {
             const auto& result = clinic.HandleFrame(frame, camera);
             imshow("Video", result);
@@ -67,7 +67,7 @@ int main()
             );
         }
 
-        // Ожидаем завершения всех потоков
+        // РћР¶РёРґР°РµРј Р·Р°РІРµСЂС€РµРЅРёСЏ РІСЃРµС… РїРѕС‚РѕРєРѕРІ
         for (auto& thread : workers) {
             thread.join();
         }

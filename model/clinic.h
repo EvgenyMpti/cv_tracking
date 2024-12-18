@@ -43,9 +43,9 @@ public:
 private:
     Room* room_;
     std::string source_;
-    // Реальные координаны на карте
+    // Р РµР°Р»СЊРЅС‹Рµ РєРѕРѕСЂРґРёРЅР°РЅС‹ РЅР° РєР°СЂС‚Рµ
     Corners real_corn_;
-    // Координаты углов параллелограмма на изображении
+    // РљРѕРѕСЂРґРёРЅР°С‚С‹ СѓРіР»РѕРІ РїР°СЂР°Р»Р»РµР»РѕРіСЂР°РјРјР° РЅР° РёР·РѕР±СЂР°Р¶РµРЅРёРё
     Corners image_corn_;
     cv::Mat homography_;
     
@@ -144,7 +144,7 @@ public:
 	//Get
 private:
     std::string name_;
-    //координаты на общем плане клиники
+    //РєРѕРѕСЂРґРёРЅР°С‚С‹ РЅР° РѕР±С‰РµРј РїР»Р°РЅРµ РєР»РёРЅРёРєРё
     Corners coords_;
     Corners door_;
     std::unordered_map<size_t, Camera> cameras_;

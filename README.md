@@ -5,6 +5,7 @@
 - [Оригинальное видео работы программы](https://github.com/EvgenyMpti/cv_tracking/raw/refs/heads/main/result/output.mp4) 
 
 [![Пример работы программы](/result/output.gif)](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
+
 [YouTube](https://www.youtube.com/watch?v=TLlQZG0YQ5g)
 
 
